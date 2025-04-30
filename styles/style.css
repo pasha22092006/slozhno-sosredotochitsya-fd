@@ -3,7 +3,7 @@
 .page {
   font-family: var(--font-family);
   background-color: var(--page-bg-color);
-
+  background-attachment: fixed;
   min-inline-size: 375px;
 }
 
@@ -181,10 +181,6 @@
   text-shadow: 2px 1px 0 var(--accent-color);
 }
 
-.section-link {
-  text-shadow: 2px 1px 0 var(--accent-color);
-}
-
 .section-link:hover {
   border-bottom: 2px solid var(--section-text-color);
   cursor: pointer;
@@ -294,7 +290,6 @@
   /* content */
 
   .main__section {
-    display: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: end;
@@ -402,10 +397,6 @@
     right: 48px;
   }
 
-  .header__theme-menu {
-    grid-column: 2;
-  }
-
   .header__title {
     grid-column: span 2;
     justify-self: start;
@@ -435,7 +426,6 @@
   /* content */
 
   .main__section {
-    display: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: end;
