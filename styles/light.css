@@ -20,7 +20,7 @@
 
 /* для системы (авто) */
 @media (prefers-color-scheme: light) {
-  :root.theme-auto {
+  :root {
     --accent-color: #FF8DCB;
     --page-bg-color: #FFF1F7;
     --title-color: #FFC2E6;
