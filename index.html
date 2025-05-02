@@ -9,20 +9,22 @@
   <title>Сложно сосредоточиться</title>
   <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./images/mobile-icon.png">
   <script src="./scripts/script.js"></script>
   <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
   <link rel="stylesheet" href="./styles/variables.css" />
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="stylesheet" href="./styles/dark.css" />
   <link rel="stylesheet" href="./styles/light.css" />
-  <link rel="stylesheet" href="./styles/globals.css" />
+
 
 </head>
 
 <body class="page">
   <header class="header decorated-zone">
 
-    <span class="header__rec">REC</span>
+    <span class="header__rec visually-hidden">REC</span>
 
 
     <nav class="header__theme-menu">
@@ -47,12 +49,12 @@
     </nav>
 
     <h1 class="header__title">no focus</h1>
-    <section class="header__title-page">
+    <div class="header__title-page">
       <p class="header__title-text">Что делать, когда не можешь делать ничего <br>
         Или почему нам так сложно
         сконцентрироваться, особенно когда очень
         надо</p>
-    </section>
+    </div>
 
 
 
@@ -91,7 +93,7 @@
     </section>
 
 
-    <section class="main__section">
+    <section class="main__section main__section_type_articles">
       <h2 class="main__section-title">Что снижает концентрацию внимания?</h2>
       <article class="main__section-article">
         <ul class="list-main__section-article">
@@ -148,7 +150,7 @@
       <h2 class="main__section-title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
       <article class="main__section-article">
         <h3 class="section__sub-title">5 простых (на самом деле не очень) советов</h3>
-        <h3 class="section__sub-title sub-title-exception sub-title-regular">Представьте небо и облака</h3>
+        <h4 class="section__sub-title sub-title-exception sub-title-regular">Представьте небо и облака</h4>
         <p class="section-text">Или листья в ручье. Тут дело в лёгкой медитации, которая помогает успокоиться. Ведь
           часто
           именно тревожные мысли о
@@ -162,7 +164,7 @@
           проблемах из будущего.
         </p>
 
-        <h3 class="section__sub-title sub-title-exception sub-title-regular">Включите музыку</h3>
+        <h4 class="section__sub-title sub-title-exception sub-title-regular">Включите музыку</h4>
         <p class="section-text">Но не любую, и не любимую. Любимая может быть связана с сильными положительными
           эмоциями,
           которые тоже очень сильно
@@ -170,7 +172,7 @@
           шумом» или
           нейромузыкой.
         </p>
-        <h3 class="section__sub-title sub-title-exception sub-title-regular">Прогуляйтесь</h3>
+        <h4 class="section__sub-title sub-title-exception sub-title-regular">Прогуляйтесь</h4>
         <p class="section-text">Или даже пробегитесь. Лучше найти парк или лес: один эксперимент <a href=""
             class="section-link">показал</a>, что созерцание
           природы повышает концентрацию,
@@ -179,7 +181,7 @@
           упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая
           двадцатиминутная прогулка — тоже отличный вариант.
         </p>
-        <h3 class="section__sub-title sub-title-exception sub-title-regular">Хорошо ешьте</h3>
+        <h4 class="section__sub-title sub-title-exception sub-title-regular">Хорошо ешьте</h4>
         <p class="section-text">Мы — не ваша бабушка, но это правда важно. Выбирайте продукты, которые препятствуют
           резким
           скачкам сахара в крови.
@@ -200,19 +202,19 @@
     </section>
 
     <section class="main__section">
-      <h3 class="section__sub-title">А можно в картинках?</h3>
+      <h2 class="section__sub-title">А можно в картинках?</h2>
 
       <ul class="image-list main__section-article">
-        <li class="list-item-image"><img src="./images/sunset.png" alt="Закат" class="image"></li>
-        <li class="list-item-image"><img src="./images/ice-cream.png" alt="Мороженое" class="image"></li>
-        <li class="list-item-image"><img src="./images/tape.png" alt="Кассета" class="image"></li>
-        <li class="list-item-image"><img src="./images/books.png" alt="Книги" class="image"></li>
-        <li class="list-item-image"><img src="./images/street.png" alt="Улица" class="image"></li>
+        <li class="list-item-image"><img src="./images/sunset.png" alt="Закат" class="image" loading="lazy"></li>
+        <li class="list-item-image"><img src="./images/ice-cream.png" alt="Мороженое" class="image" loading="lazy"></li>
+        <li class="list-item-image"><img src="./images/tape.png" alt="Кассета" class="image" loading="lazy"></li>
+        <li class="list-item-image"><img src="./images/books.png" alt="Книги" class="image" loading="lazy"></li>
+        <li class="list-item-image"><img src="./images/street.png" alt="Улица" class="image" loading="lazy"></li>
       </ul>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer decorated-zone">
     <h4 class="footer__title header__title">focus</h4>
   </footer>
 </body>
