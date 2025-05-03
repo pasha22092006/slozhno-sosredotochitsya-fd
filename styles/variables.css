@@ -7,7 +7,7 @@
   /* цвета */
   --accent-color: #ff0070;
   --section-nav-color: #ff0070;
-  --section-nav-color-rgb: 255,0,112;
+  --section-nav-color-rgb: 255, 0, 112;
   --page-bg-color: #000028;
   --title-color: #db00ff;
   --section-text-color: #F1B2CE;
@@ -31,8 +31,8 @@
   --line-height-title: 83%;
   --line-height-base: 130%;
 
-  --font-weight-M: 700;
-  --font-weight-S: 400;
+  --font-weight-m: 700;
+  --font-weight-s: 400;
   /* другое */
   --background-image: url("../images/cover-image-dark.png");
   --height-display: 668px;
